@@ -1,0 +1,465 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+
+
+
+
+
+
+
+* {
+	text-decoration:none;
+}
+
+
+body{
+	background-color: #f3f3f3;
+
+
+
+}
+
+header{
+	position: fixed;
+	background-color: #046BA3;
+	width: 100%;
+	height: 70px;
+	border-bottom-style: double;
+	border-bottom-width: 3px;
+	border-bottom-color: white;
+}
+
+header .header-left{
+	font-family: serif;
+	font-style: italic;
+	color: #fff;
+	font-weight: 900;
+	font-size:30px;
+	display: block;
+	margin: 0;
+	text-align: left;
+	padding: 20px;
+	text-shadow: 2px 2px 6px black;
+  float: left;
+}
+
+
+header .header-right{
+  font-family: serif;
+  font-style: italic;
+  color: #fff;
+  font-weight: 900;
+  font-size:30px;
+  display: block;
+  margin: 0;
+  text-align: right;
+  padding: 20px;
+  float: right;
+  text-shadow: 2px 2px 6px black;
+}
+
+
+.index-banner{
+	width: 100%;
+	height: 350px;
+	background-color: #0B86C9;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+  border: 2px solid #0A7EBD;
+  border-radius: 3%;
+}
+
+.index-banner h2{
+	color: white;
+	font-size: 90px;
+	line-height: 50px;
+	font-weight: 900;
+	font-family: serif;
+	text-align: center;
+	text-shadow: 2px 2px 3px black;
+	padding-top: 150px;
+}
+
+.wrapper{
+  width: 1000px;
+  margin: 30px auto;
+}
+
+
+.quote{
+	height: 45vh;
+  width: 1000px;
+  margin: 30px auto 60px;
+}
+.quote-2{
+	height: 90px;
+  width: 100%;
+  margin: 30px auto 60px;
+}
+
+.quote h1{
+	color: black;
+	font-size: 26px;
+	font-weight: 400;
+	font-family: Cormorant Garamond;
+	font-style: italic;
+	line-height: 34px;
+	text-align: center;
+	padding: 20px 3px;
+	padding-bottom: 20px;
+}
+
+.quote-2 h1{
+	color: black;
+	font-size: 26px;
+	font-weight: 400;
+	font-family: Cormorant Garamond;
+	font-style: italic;
+	line-height: 34px;
+	text-align: center;
+	padding: 20px 3px;
+	padding-bottom: 20px;
+}
+
+.quote h2{
+	color: black;
+  width: 35%;
+	font-size: 22px;
+	font-weight: 600;
+	font-family: arial;
+	line-height: 34px;
+	text-align: center;
+	padding: 0 3px;
+	padding: 20px;
+  margin: 30px 40px 0 300px;
+  text-transform: uppercase;
+  float: left;
+  border-bottom: 2px solid red;
+}
+
+.quote-2 h2{
+	color: black;
+  width: 35%;
+	font-size: 10px;
+	font-weight: 200;
+	font-family: arial;
+	line-height: 34px;
+	text-align: center;
+  text-transform: uppercase;
+  float: left;
+}
+
+
+
+
+.wrapper h2{
+	color: red;
+	font-size: 60px;
+	font-weight: 600;
+	font-family: Cormorant Garamond;
+	font-style: italic;
+	line-height: 34px;
+	text-align: center;
+	padding: 100px 50px 30px 50px;
+	text-shadow: 2px 2px 3px black;
+}
+
+.wrapper h3{
+	color: #0B86C9;
+	font-size: 29px;
+	font-weight: 400;
+	font-family: Calibri;
+	font-style: italic;
+	line-height: 34px;
+	text-align: center;
+	padding: 50px 3px 5px;
+	text-shadow: 2px 2px 1px black;
+}
+
+
+.container{
+  padding: 15px 10px;
+  font-family: arial;
+	font-size: 15px;
+  line-height: 24px;
+}
+
+
+.container .scheda{
+	text-align: left;
+	font-weight: 500;
+  font-size: 15px;
+}
+
+.container p{
+	text-align: center;
+	font-weight: 400;
+  font-size: 18px;
+}
+
+.paragraph-1{
+  color: black;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Calibri;
+	line-height: 34px;
+	text-align: left;
+  padding: 0 3px;
+  margin: 40px 2px;
+}
+
+.paragraph-2{
+  color: black;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: Calibri;
+	line-height: 34px;
+	text-align: left;
+  padding: 0 3px;
+  margin: 140px 0 70px 2px;
+  width: 620px;
+  float: left;
+}
+
+.fotobox-1{
+  padding-bottom: 70px;
+  overflow: hidden;
+}
+
+
+.img-1{
+  width: 350px;
+  height: 450px;
+  margin: 30px 0 0 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+.img-2{
+  width: 470px;
+  height: 450px;
+  margin: 30px 90px 0 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+.img-3{
+  width: 430px;
+  height: 400px;
+  margin: 30px 30px 0 70px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+.img-4{
+  width: 320px;
+  height: 500px;
+  margin: 30px 40px 0 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+.img-5{
+  width: 300px;
+  height: 600px;
+  margin: 60px 40px 0 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: right;
+}
+
+.img-6{
+  width: 420px;
+  height: 400px;
+  margin: 30px 30px 0 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+.img-7{
+  width: 460px;
+  height: 430px;
+  margin: 30px 40px 0 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+.img-8{
+  width: 460px;
+  height: 400px;
+  margin: 30px 40px 0 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+.img-9{
+  width: 300px;
+  height: 65  0px;
+  margin: 100px 40px 0 280px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: right;
+}
+
+.img-10{
+  width: 32  0px;
+  height: 490px;
+  margin: 30px 30px 0 110px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+.img-11{
+  width: 320px;
+  height: 490px;
+  margin: 30px 30px 0 110px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  float: left;
+}
+
+
+
+
+
+
+
+
+footer{
+	width: calc(100%-80px);
+	padding: 40px 40px;
+	background-color: #111;
+	margin-top: 20px;
+}
+
+footer h3{
+	padding: 7px 30px;
+	text-align: center;
+  color: #fff;
+}
+
+footer h3 a{
+	font-family: catamaran;
+	font-size: 22px;
+	color: #fff;
+  text-decoration: underline;
+}
+
+footer h2{
+	padding: 20px 30px;
+	font-family: catamaran;
+	font-size: 22px;
+	color: red;
+	text-align: center;
+}
